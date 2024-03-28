@@ -1,0 +1,41 @@
+.testmonial_container {
+ padding-top:40px;
+  display: flex;
+  justify-content: space-between;  
+}
+
+.testmonial_left,
+.testmonial_right {
+  display: flex;
+  flex-direction: column;  
+  width: 50%;  
+  text-align: center;
+  
+}
+
+.testmonial_container h1{
+  color:black;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.testmonial_container p{
+  color: grey;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+.testmonial_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testmonial_left h1, .testmonial_right h1{
+font-size: 16px;
+}
+
+  
+  
+}

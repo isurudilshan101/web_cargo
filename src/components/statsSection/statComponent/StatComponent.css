@@ -1,0 +1,16 @@
+.stat_component_container{
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  color: rgb(25, 24, 121);
+}
+
+.stat_title{
+  font-size: 20p;
+  font-weight: 700;
+}
+
+.stat_number h1{
+  font-weight: 800; /* Increase font weight for even bolder text */
+}
+

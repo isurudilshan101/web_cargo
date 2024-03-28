@@ -1,0 +1,30 @@
+.stat_container{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 72%;
+  margin: auto;
+  align-items: center;
+  background-color:rgb(248, 241, 241);
+  padding: 10px;
+}
+
+
+@media only screen and (max-width: 767px) {
+ 
+  .stat_container{
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+    margin: auto;
+    align-items: center;
+    background-color:rgb(248, 241, 241);
+    padding: 10px;
+
+  }
+  
+}
+
+

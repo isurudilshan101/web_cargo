@@ -1,0 +1,58 @@
+.img_slide1{
+  width: auto;  
+   
+  object-fit: cover !important;
+}
+
+.title_two{
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.title_three{
+  font-size: 48px;
+  color: rgb(230, 230, 27);
+  font-weight: 700;
+  margin-top: 25px;
+
+}
+
+.discription{
+  margin-top: 20px;
+}
+
+.discover_more {
+    background-color: #e6ca2e;  
+    color: #ffffff;  
+    padding: 9px;  
+    margin-top: 20px;
+}
+  
+
+/* for mobile responsive */
+
+@media only screen and (max-width: 767px) {
+ 
+  .slider_one_container{
+   
+    height: auto;
+  }
+
+  .title_two{
+    font-size: 20px ;
+  }
+
+  .title_three{
+    font-size: 20px ;
+
+  }
+
+  .w-1\/3 {
+    width: 50% !important;  
+  }
+
+  .w-2\/3 {
+    width: 50% !important;  
+  }
+  
+}

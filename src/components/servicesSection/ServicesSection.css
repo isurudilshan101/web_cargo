@@ -1,0 +1,172 @@
+.service_container{
+  height: auto;
+   
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 40px;
+}
+
+.heading h6{
+color: yellowgreen;
+}
+
+.card_section{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  
+}
+
+ 
+
+.left_side_service{
+  display: flex;
+  height: 200px;
+  
+}
+
+.right_side_service{
+  display: flex;
+  height: 200px; 
+
+}
+
+.custom-slick-dots {
+  position: absolute ;
+  top: 20px; /* Adjust the bottom position as needed */
+  right: 20px; /* Adjust the right position as needed */
+}
+
+.custom-slick-dots li {
+  margin: 0 3px !important; /* Adjust the margin between dots */
+  
+}
+
+.custom-slick-dots li button {
+  width: 10px !important;  
+  height: 10px !important;  
+  border-radius: 100% !important;  
+  background-color: #000 !important;  
+}
+
+.custom-slick-dots li.slick-active button {
+  background-color: #130e0e;  
+}
+
+.image.left_image,
+.left_card {
+  width: 50%;  
+}
+
+.image.left_image img {
+  width: 100%; 
+  display: block; 
+}
+
+ 
+
+ 
+.image.right_image,
+.right_card {
+  width: 50%;
+ 
+}
+  
+.right_card, .left_card {
+  height: 200px;
+  padding: 4px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(228, 119, 119, 0.4);  
+}
+
+.right_card button, .left_card button{
+  font-size: 16px;
+  font-weight: 700;
+} 
+
+.right_image img {
+  width: 100%;
+}
+
+.right_image img {
+  width: 100%; 
+  display: block; 
+}
+
+.logistics_para{
+  margin-top: 40px !important;
+  width: 80%;
+  margin: auto;
+  font-size: 12px;
+  color: gray;
+
+}
+
+.find_para{
+  color: #000;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+.heading{
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h2{
+  font-size: 20px;
+}
+
+.card_section{
+  display: flex;
+  flex-direction: column;
+}
+
+.left_side_service,
+.right_side_service{
+  width: 100%;
+}
+
+.left_card h4 , 
+.right_card h4{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.left_card,.right_card{
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  height: auto;
+  width: 50%;
+  
+}
+
+.left_card p, .right_card p{
+  font-size: 11px;
+}
+
+.left_card button, .right_card button{
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.left_card, .right_card {
+  height: 150px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(228, 119, 119, 0.4);  
+}
+
+.right_image img,
+.left_image img{
+  object-fit: cover;
+  height: 150px;
+}
+ 
+}

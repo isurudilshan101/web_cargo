@@ -1,0 +1,49 @@
+.left-side img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.admin_area{
+  display: flex;
+  gap: 10px;
+}
+
+/* for mobile responsive */
+
+@media only screen and (max-width: 767px) {
+ 
+  .card-container { 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+  }
+
+  .left-side {
+    margin-bottom: 0px;  
+    margin-right: 0px;  
+
+  }
+
+  .right-side {
+    text-align: center;  
+  }
+
+  .right-side h2{
+    font-size: 14px;
+    font-weight: 700;
+
+  }
+
+  .admin_area h6{
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .right-side p{
+    font-size: 12px;
+  }
+
+}
+
+ 
