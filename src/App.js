@@ -6,6 +6,7 @@ function App() {
     <div className="">
       <div className="home">
         <Home />
+        {/* <section/> */}
       </div>
     </div>
   );
