@@ -5,7 +5,6 @@ import "./StatSection.css";
 const StatSection = () => {
   return (
     <div className="stat_container">
-      {/* <StatComponent title="Delivered &lt;br&gt; Packages" number="890" /> */}
       <StatComponent
         title={
           <>
@@ -24,7 +23,7 @@ const StatSection = () => {
             <span>Covered</span>
           </>
         }
-        number="137"
+        number="890"
       />{" "}
       <StatComponent
         title={
